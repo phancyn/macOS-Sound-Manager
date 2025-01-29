@@ -1,0 +1,212 @@
+;MAC Sound Setup For XP
+[Version]
+Signature="$CHICAGO$"
+
+[DefaultInstall]
+AddReg=MACsnd_AddReg
+Copyfiles=MACsnd_Copyfiles,MACsnd_inf
+
+[DefaultUnInstall]
+DelFiles=MACsnd_Copyfiles,MACsnd_inf
+DelReg=MACsnd_AddReg
+AddReg=DefaultReg
+
+[DestinationDirs]
+MACsnd_Copyfiles=10,Media\MACsnd
+MACsnd_inf=17
+
+[MACsnd_Copyfiles]
+Asterik.wav
+Close.wav
+Complete Navigation.wav
+Contact Online.wav
+Critical Battery.wav
+Critical Stop.wav
+Default Beep.wav
+Device Connect.wav
+Device Disconnect.wav
+Device Failed.wav
+Empty Recycle.wav
+Error.wav
+Exclamation.wav
+Windows exit.wav
+Logoff.wav
+Logon.wav
+Low Battery.wav
+Maximize.wav
+Menu Command.wav
+Menu Popup.wav
+Minimize.wav
+Move Menu.wav
+New Alert.wav
+New Mail.wav
+New Messages.wav
+Open.wav
+Person Join.wav
+Person Leave.wav
+Print Complete.wav
+Program Error.wav
+Question.wav
+Receive Call.wav
+Receive Request.wav
+Restore Down.wav
+Restore Up.wav
+Select.wav
+Show Toolbar.wav
+Start Navigation.wav
+Windows XP start.wav
+System Notifi.wav
+
+[MACsnd_inf]
+MACSound.inf
+
+[MACsnd_AddReg]
+HKCU,AppEvents\Schemes,,,"MAC Sound"
+HKCU,AppEvents\Schemes\Apps\.Default\.Default\.Current,,,"C:\Windows\Media\MACsnd\Default Beep.wav"
+HKCU,AppEvents\Schemes\Apps\.Default\.Default\MACsnd
+HKCU,AppEvents\Schemes\Apps\.Default\.Default\MACsnd,,,"C:\Windows\Media\MACsnd\Default Beep.wav"
+HKCU,AppEvents\Schemes\Apps\.Default\AppGPFault\.Current,,,"C:\Windows\Media\MACsnd\Program Error.wav"
+HKCU,AppEvents\Schemes\Apps\.Default\AppGPFault\MACsnd
+HKCU,AppEvents\Schemes\Apps\.Default\AppGPFault\MACsnd,,,"C:\Windows\Media\MACsnd\Program Error.wav"
+HKCU,AppEvents\Schemes\Apps\.Default\CCSelect\.Current,,,"C:\Windows\Media\MACsnd\Select.wav"
+HKCU,AppEvents\Schemes\Apps\.Default\CCSelect\MACsnd
+HKCU,AppEvents\Schemes\Apps\.Default\CCSelect\MACsnd,,,"C:\Windows\Media\MACsnd\Select.wav"
+HKCU,AppEvents\Schemes\Apps\.Default\Close\.Current,,,"C:\Windows\Media\MACsnd\Close.wav"
+HKCU,AppEvents\Schemes\Apps\.Default\Close\MACsnd
+HKCU,AppEvents\Schemes\Apps\.Default\Close\MACsnd,,,"C:\Windows\Media\MACsnd\Close.wav"
+HKCU,AppEvents\Schemes\Apps\.Default\CriticalBatteryAlarm\.Current,,,"C:\Windows\Media\MACsnd\Critical Battery.wav"
+HKCU,AppEvents\Schemes\Apps\.Default\CriticalBatteryAlarm\MACsnd
+HKCU,AppEvents\Schemes\Apps\.Default\CriticalBatteryAlarm\MACsnd,,,"C:\Windows\Media\MACsnd\Critical Battery.wav"
+HKCU,AppEvents\Schemes\Apps\.Default\DeviceConnect\.Current,,,"C:\Windows\Media\MACsnd\Device Connect.wav"
+HKCU,AppEvents\Schemes\Apps\.Default\DeviceConnect\MACsnd
+HKCU,AppEvents\Schemes\Apps\.Default\DeviceConnect\MACsnd,,,"C:\Windows\Media\MACsnd\Device Connect.wav"
+HKCU,AppEvents\Schemes\Apps\.Default\DeviceDisconnect\.Current,,,"C:\Windows\Media\MACsnd\Device Disconnect.wav"
+HKCU,AppEvents\Schemes\Apps\.Default\DeviceDisconnect\MACsnd
+HKCU,AppEvents\Schemes\Apps\.Default\DeviceDisconnect\MACsnd,,,"C:\Windows\Media\MACsnd\Device Disconnect.wav"
+HKCU,AppEvents\Schemes\Apps\.Default\DeviceFail\.Current,,,"C:\Windows\Media\MACsnd\Device Failed.wav"
+HKCU,AppEvents\Schemes\Apps\.Default\DeviceFail\MACsnd
+HKCU,AppEvents\Schemes\Apps\.Default\DeviceFail\MACsnd,,,"C:\Windows\Media\MACsnd\Device Failed.wav"
+HKCU,AppEvents\Schemes\Apps\.Default\LowBatteryAlarm\.Current,,,"C:\Windows\Media\MACsnd\Low Battery.wav"
+HKCU,AppEvents\Schemes\Apps\.Default\LowBatteryAlarm\MACsnd
+HKCU,AppEvents\Schemes\Apps\.Default\LowBatteryAlarm\MACsnd,,,"C:\Windows\Media\MACsnd\Low Battery.wav"
+HKCU,AppEvents\Schemes\Apps\.Default\MailBeep\.Current,,,"C:\Windows\Media\MACsnd\New Mail.wav"
+HKCU,AppEvents\Schemes\Apps\.Default\MailBeep\MACsnd
+HKCU,AppEvents\Schemes\Apps\.Default\MailBeep\MACsnd,,,"C:\Windows\Media\MACsnd\New Mail.wav"
+HKCU,AppEvents\Schemes\Apps\.Default\Maximize\.Current,,,"C:\Windows\Media\MACsnd\Maximize.wav"
+HKCU,AppEvents\Schemes\Apps\.Default\Maximize\MACsnd
+HKCU,AppEvents\Schemes\Apps\.Default\Maximize\MACsnd,,,"C:\Windows\Media\MACsnd\Maximize.wav"
+HKCU,AppEvents\Schemes\Apps\.Default\MenuCommand\.Current,,,"C:\Windows\Media\MACsnd\Menu Command.wav"
+HKCU,AppEvents\Schemes\Apps\.Default\MenuCommand\MACsnd
+HKCU,AppEvents\Schemes\Apps\.Default\MenuCommand\MACsnd,,,"C:\Windows\Media\MACsnd\Menu Command.wav"
+HKCU,AppEvents\Schemes\Apps\.Default\MenuPopup\.Current,,,"C:\Windows\Media\MACsnd\Menu Popup.wav"
+HKCU,AppEvents\Schemes\Apps\.Default\MenuPopup\MACsnd
+HKCU,AppEvents\Schemes\Apps\.Default\MenuPopup\MACsnd,,,"C:\Windows\Media\MACsnd\Menu Popup.wav"
+HKCU,AppEvents\Schemes\Apps\.Default\Minimize\.Current,,,"C:\Windows\Media\MACsnd\Minimize.wav"
+HKCU,AppEvents\Schemes\Apps\.Default\Minimize\MACsnd
+HKCU,AppEvents\Schemes\Apps\.Default\Minimize\MACsnd,,,"C:\Windows\Media\MACsnd\Minimize.wav"
+HKCU,AppEvents\Schemes\Apps\.Default\Open\.Current,,,"C:\Windows\Media\MACsnd\Open.wav"
+HKCU,AppEvents\Schemes\Apps\.Default\Open\MACsnd
+HKCU,AppEvents\Schemes\Apps\.Default\Open\MACsnd,,,"C:\Windows\Media\MACsnd\Open.wav"
+HKCU,AppEvents\Schemes\Apps\.Default\PrintComplete\.Current,,,"C:\Windows\Media\MACsnd\Print Complete.wav"
+HKCU,AppEvents\Schemes\Apps\.Default\PrintComplete\MACsnd
+HKCU,AppEvents\Schemes\Apps\.Default\PrintComplete\MACsnd,,,"C:\Windows\Media\MACsnd\Print Complete.wav"
+HKCU,AppEvents\Schemes\Apps\.Default\RestoreDown\.Current,,,"C:\Windows\Media\MACsnd\Restore Down.wav"
+HKCU,AppEvents\Schemes\Apps\.Default\RestoreDown\MACsnd
+HKCU,AppEvents\Schemes\Apps\.Default\RestoreDown\MACsnd,,,"C:\Windows\Media\MACsnd\Restore Down.wav"
+HKCU,AppEvents\Schemes\Apps\.Default\RestoreUp\.Current,,,"C:\Windows\Media\MACsnd\Restore Up.wav"
+HKCU,AppEvents\Schemes\Apps\.Default\RestoreUp\MACsnd
+HKCU,AppEvents\Schemes\Apps\.Default\RestoreUp\MACsnd,,,"C:\Windows\Media\MACsnd\Restore Up.wav"
+HKCU,AppEvents\Schemes\Apps\.Default\ShowBand\.Current,,,"C:\Windows\Media\MACsnd\Show Toolbar.wav"
+HKCU,AppEvents\Schemes\Apps\.Default\ShowBand\MACsnd
+HKCU,AppEvents\Schemes\Apps\.Default\ShowBand\MACsnd,,,"C:\Windows\Media\MACsnd\Show Toolbar.wav"
+HKCU,AppEvents\Schemes\Apps\.Default\SystemAsterisk\.Current,,,"C:\Windows\Media\MACsnd\Asterik.wav"
+HKCU,AppEvents\Schemes\Apps\.Default\SystemAsterisk\MACsnd
+HKCU,AppEvents\Schemes\Apps\.Default\SystemAsterisk\MACsnd,,,"C:\Windows\Media\MACsnd\Asterik.wav"
+HKCU,AppEvents\Schemes\Apps\.Default\SystemExclamation\.Current,,,"C:\Windows\Media\MACsnd\Exclamation.wav"
+HKCU,AppEvents\Schemes\Apps\.Default\SystemExclamation\MACsnd
+HKCU,AppEvents\Schemes\Apps\.Default\SystemExclamation\MACsnd,,,"C:\Windows\Media\MACsnd\Exclamation.wav"
+HKCU,AppEvents\Schemes\Apps\.Default\SystemExit\.Current,,,"C:\Windows\Media\MACsnd\Windows exit.wav"
+HKCU,AppEvents\Schemes\Apps\.Default\SystemExit\MACsnd
+HKCU,AppEvents\Schemes\Apps\.Default\SystemExit\MACsnd,,,"C:\Windows\Media\MACsnd\Windows exit.wav"
+HKCU,AppEvents\Schemes\Apps\.Default\SystemHand\.Current,,,"C:\Windows\Media\MACsnd\Critical Stop.wav"
+HKCU,AppEvents\Schemes\Apps\.Default\SystemHand\MACsnd
+HKCU,AppEvents\Schemes\Apps\.Default\SystemHand\MACsnd,,,"C:\Windows\Media\MACsnd\Critical Stop.wav"
+HKCU,AppEvents\Schemes\Apps\.Default\SystemNotification\.Current,,,"C:\Windows\Media\MACsnd\System Notifi.wav"
+HKCU,AppEvents\Schemes\Apps\.Default\SystemNotification\MACsnd
+HKCU,AppEvents\Schemes\Apps\.Default\SystemNotification\MACsnd,,,"C:\Windows\Media\MACsnd\System Notifi.wav"
+HKCU,AppEvents\Schemes\Apps\.Default\SystemQuestion\.Current,,,"C:\Windows\Media\MACsnd\Question.wav"
+HKCU,AppEvents\Schemes\Apps\.Default\SystemQuestion\MACsnd
+HKCU,AppEvents\Schemes\Apps\.Default\SystemQuestion\MACsnd,,,"C:\Windows\Media\MACsnd\Question.wav"
+HKCU,AppEvents\Schemes\Apps\.Default\SystemStart\.Current,,,"C:\Windows\Media\MACsnd\Windows XP start.wav"
+HKCU,AppEvents\Schemes\Apps\.Default\SystemStart\MACsnd
+HKCU,AppEvents\Schemes\Apps\.Default\SystemStart\MACsnd,,,"C:\Windows\Media\MACsnd\Windows XP start.wav"
+HKCU,AppEvents\Schemes\Apps\.Default\WindowsLogoff\.Current,,,"C:\Windows\Media\MACsnd\Logoff.wav"
+HKCU,AppEvents\Schemes\Apps\.Default\WindowsLogoff\MACsnd
+HKCU,AppEvents\Schemes\Apps\.Default\WindowsLogoff\MACsnd,,,"C:\Windows\Media\MACsnd\Logoff.wav"
+HKCU,AppEvents\Schemes\Apps\.Default\WindowsLogon\.Current,,,"C:\Windows\Media\MACsnd\Logon.wav"
+HKCU,AppEvents\Schemes\Apps\.Default\WindowsLogon\MACsnd
+HKCU,AppEvents\Schemes\Apps\.Default\WindowsLogon\MACsnd,,,"C:\Windows\Media\MACsnd\Logon.wav"
+HKCU,AppEvents\Schemes\Apps\Conf\Person Joins\.Current,,,"C:\Windows\Media\MACsnd\Person Join.wav"
+HKCU,AppEvents\Schemes\Apps\Conf\Person Joins\MACsnd
+HKCU,AppEvents\Schemes\Apps\Conf\Person Joins\MACsnd,,,"C:\Windows\Media\MACsnd\Person Join.wav"
+HKCU,AppEvents\Schemes\Apps\Conf\Person Leaves\.Current,,,"C:\Windows\Media\MACsnd\Person Leave.wav"
+HKCU,AppEvents\Schemes\Apps\Conf\Person Leaves\MACsnd
+HKCU,AppEvents\Schemes\Apps\Conf\Person Leaves\MACsnd,,,"C:\Windows\Media\MACsnd\Person Leave.wav"
+HKCU,AppEvents\Schemes\Apps\Conf\Receive Call\.Current,,,"C:\Windows\Media\MACsnd\Receive Call.wav"
+HKCU,AppEvents\Schemes\Apps\Conf\Receive Call\MACsnd
+HKCU,AppEvents\Schemes\Apps\Conf\Receive Call\MACsnd,,,"C:\Windows\Media\MACsnd\Receive Call.wav"
+HKCU,AppEvents\Schemes\Apps\Conf\Receive Request to Join\.Current,,,"C:\Windows\Media\MACsnd\Receive Request.wav"
+HKCU,AppEvents\Schemes\Apps\Conf\Receive Request to Join\MACsnd
+HKCU,AppEvents\Schemes\Apps\Conf\Receive Request to Join\MACsnd,,,"C:\Windows\Media\MACsnd\Receive Request.wav"
+HKCU,AppEvents\Schemes\Apps\Explorer\ActivatingDocument\.Current,,,"C:\Windows\Media\MACsnd\Complete Navigation.wav"
+HKCU,AppEvents\Schemes\Apps\Explorer\ActivatingDocument\MACsnd
+HKCU,AppEvents\Schemes\Apps\Explorer\ActivatingDocument\MACsnd,,,"C:\Windows\Media\MACsnd\Complete Navigation.wav"
+HKCU,AppEvents\Schemes\Apps\Explorer\EmptyRecycleBin\.Current,,,"C:\Windows\Media\MACsnd\Empty Recycle.wav"
+HKCU,AppEvents\Schemes\Apps\Explorer\EmptyRecycleBin\MACsnd
+HKCU,AppEvents\Schemes\Apps\Explorer\EmptyRecycleBin\MACsnd,,,"C:\Windows\Media\MACsnd\Empty Recycle.wav"
+HKCU,AppEvents\Schemes\Apps\Explorer\MoveMenuItem\.Current,,,"C:\Windows\Media\MACsnd\Move Menu.wav"
+HKCU,AppEvents\Schemes\Apps\Explorer\MoveMenuItem\MACsnd
+HKCU,AppEvents\Schemes\Apps\Explorer\MoveMenuItem\MACsnd,,,"C:\Windows\Media\MACsnd\Move Menu.wav"
+HKCU,AppEvents\Schemes\Apps\Explorer\Navigating\.Current,,,"C:\Windows\Media\MACsnd\Start Navigation.wav"
+HKCU,AppEvents\Schemes\Apps\Explorer\Navigating\MACsnd
+HKCU,AppEvents\Schemes\Apps\Explorer\Navigating\MACsnd,,,"C:\Windows\Media\MACsnd\Start Navigation.wav"
+HKCU,AppEvents\Schemes\Apps\MSMSGS\MSMSGS_ContactOnline\.Current,,,"C:\Windows\Media\MACsnd\Contact Online.wav"
+HKCU,AppEvents\Schemes\Apps\MSMSGS\MSMSGS_ContactOnline\MACsnd
+HKCU,AppEvents\Schemes\Apps\MSMSGS\MSMSGS_ContactOnline\MACsnd,,,"C:\Windows\Media\MACsnd\Contact Online.wav"
+HKCU,AppEvents\Schemes\Apps\MSMSGS\MSMSGS_NewAlert\.Current,,,"C:\Windows\Media\MACsnd\New Alert.wav"
+HKCU,AppEvents\Schemes\Apps\MSMSGS\MSMSGS_NewAlert\MACsnd
+HKCU,AppEvents\Schemes\Apps\MSMSGS\MSMSGS_NewAlert\MACsnd,,,"C:\Windows\Media\MACsnd\New Alert.wav"
+HKCU,AppEvents\Schemes\Apps\MSMSGS\MSMSGS_NewMail\.Current,,,"C:\Windows\Media\MACsnd\New Mail.wav"
+HKCU,AppEvents\Schemes\Apps\MSMSGS\MSMSGS_NewMail\MACsnd
+HKCU,AppEvents\Schemes\Apps\MSMSGS\MSMSGS_NewMail\MACsnd,,,"C:\Windows\Media\MACsnd\New Mail.wav"
+HKCU,AppEvents\Schemes\Apps\MSMSGS\MSMSGS_NewMessage\.Current,,,"C:\Windows\Media\MACsnd\New Messages.wav"
+HKCU,AppEvents\Schemes\Apps\MSMSGS\MSMSGS_NewMessage\MACsnd
+HKCU,AppEvents\Schemes\Apps\MSMSGS\MSMSGS_NewMessage\MACsnd,,,"C:\Windows\Media\MACsnd\New Messages.wav"
+HKCU,AppEvents\Schemes\Names\MACsnd
+HKCU,AppEvents\Schemes\Names\MACsnd,,,"MAC Sound"
+HKLM,Software\Microsoft\Windows\CurrentVersion\Uninstall\MACsnd
+HKLM,Software\Microsoft\Windows\CurrentVersion\Uninstall\MACsnd,DisplayName,,"MAC Sound"
+HKLM,Software\Microsoft\Windows\CurrentVersion\Uninstall\MACsnd,UninstallString,,"rundll32.exe syssetup.dll,SetupInfObjectInstallAction DefaultUninstall 132 %17%\MACSound.inf"
+
+[DefaultReg]
+HKCU,AppEvents\Schemes,,,".default"
+HKCU,AppEvents\Schemes\Apps\.Default\.Default\.Current,,,"Windows XP Ding.wav"
+HKCU,AppEvents\Schemes\Apps\.Default\CriticalBatteryAlarm\.Current,,,"Windows XP Battery Critical.wav"
+HKCU,AppEvents\Schemes\Apps\.Default\DeviceConnect\.Current,,,"Windows XP Hardware Insert.wav"
+HKCU,AppEvents\Schemes\Apps\.Default\DeviceDisconnect\.Current,,,"Windows XP Hardware Remove.wav"
+HKCU,AppEvents\Schemes\Apps\.Default\DeviceFail\.Current,,,"Windows XP Hardware Fail.wav"
+HKCU,AppEvents\Schemes\Apps\.Default\LowBatteryAlarm\.Current,,,"Windows XP Battery Low.wav"
+HKCU,AppEvents\Schemes\Apps\.Default\MailBeep\.Current,,,"Windows XP Notify.wav"
+HKCU,AppEvents\Schemes\Apps\.Default\SystemAsterisk\.Current,,,"Windows XP Error.wav"
+HKCU,AppEvents\Schemes\Apps\.Default\SystemExclamation\.Current,,,"Windows XP Exclamation.wav"
+HKCU,AppEvents\Schemes\Apps\.Default\SystemExit\.Current,,,"Windows XP Shutdown.wav"
+HKCU,AppEvents\Schemes\Apps\.Default\SystemHand\.Current,,,"Windows XP Critical Stop.wav"
+HKCU,AppEvents\Schemes\Apps\.Default\SystemNotification\.Current,,,"Windows XP Balloon.wav"
+HKCU,AppEvents\Schemes\Apps\.Default\SystemStart\.Current,,,"Windows XP Startup.wav"
+HKCU,AppEvents\Schemes\Apps\.Default\WindowsLogoff\.Current,,,"Windows XP Logoff Sound.wav"
+HKCU,AppEvents\Schemes\Apps\.Default\WindowsLogon\.Current,,,"Windows XP Logon Sound.wav"
+HKCU,AppEvents\Schemes\Apps\Conf\Receive Call\.Current,,,"RingIn.wav"
+HKCU,AppEvents\Schemes\Apps\Conf\Receive Request to Join\.Current,,,"RingIn.wav"
+HKCU,AppEvents\Schemes\Apps\Explorer\ActivatingDocument\.Current,,,"Windows XP Notify.wav"
+HKCU,AppEvents\Schemes\Apps\Explorer\EmptyRecycleBin\.Current,,,"Windows XP Recycle.wav"
+HKCU,AppEvents\Schemes\Apps\Explorer\Navigating\.Current,,,"Windows XP Start.wav"
